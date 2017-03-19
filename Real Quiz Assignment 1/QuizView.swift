@@ -101,6 +101,7 @@ class QuizView: UIViewController {
     var myAnswer: Int!
     @IBOutlet weak var questionLabel: UILabel!
     
+    @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var answerResult: UILabel!
     
     @IBOutlet weak var answerButton1: UIButton!
