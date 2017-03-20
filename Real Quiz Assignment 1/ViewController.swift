@@ -93,10 +93,10 @@ class ViewController: UIViewController {
 
     
     
-    @IBAction func onButtonPressed(_ sender: UIButton)
+    @IBAction func onButtonPressed(_ sender: UIButton, _ segue: UIStoryboardSegue)
     {
-    
-        
+    let quizView = segue.destination as! QuizView
+    quizView.categoryLabel.text = selectedCategory
         
         
     }

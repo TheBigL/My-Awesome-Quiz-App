@@ -10,11 +10,12 @@ import UIKit
 
 class CategoryView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    
     @IBOutlet weak var categoryPicker: UIPickerView!
     
     var SelectedCategory = "";
 
-    var Categories = ["American Trivia", "Video Game Trivia", "Canadian Trivia", "Movie Trivia"]
+    var Categories = ["American Trivia", "Video Game Trivia", "Canadian Trivia", "Movie Trivia", "All"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,16 +33,7 @@ class CategoryView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSour
     
     @IBAction func backButton(_ sender: UIButton)
     {
-        /*let alert = UIAlertController(title: "Category", message: "Are you you want the  category \(SelectedCategory)", preferredStyle: .alert)
-        let ok = UIAlertAction(title: "Of Course!", style: .default, handler: nil)
-        let cancel = UIAlertAction(title: "Nah!", style: .cancel, handler: nil)
-        alert.addAction(ok)
-        alert.addAction(cancel)
-        self.present(alert, animated: true, completion: nil)
-        let backToMenu = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-        selectedCategory = SelectedCategory
-        self.present(backToMenu, animated: true, completion: nil)*/
-        
+
         
     }
 

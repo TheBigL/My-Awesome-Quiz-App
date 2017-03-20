@@ -79,7 +79,7 @@ class QuizView: UIViewController {
         
         Question(Category: "American Trivia", Question: "Which amendment to the constitution guarantees the right to own the right to own firearms?", Answers: ["The 5th amendment", "The 2nd Amendment", "The 9th Amendment", "The 12th Amendment"], Answer: 1),
         
-        
+        Question(Category: "Video Game Trivia", Question: "Which marsupial was the de-facto Sony mascot during the PS1 era?", Answers: ["Crash Bandicoot", "Sypro", "Sonic The Hedgehog", "Willy the Wombat"], Answer: 0)
     ]
     
 
@@ -169,12 +169,12 @@ class QuizView: UIViewController {
             
             if(Double(score) / Double(numberOfQuestions) < 0.5)
             {
-                answerResult.text = "Ouch! You sure you know your way around the United States?"
+                answerResult.text = "Ouch! You sure you know your way around my questions ?"
             }
             
             else if(Double(score) / Double(numberOfQuestions) <= 0.6)
             {
-                answerResult.text = "Barely passable... You'd be failing if you were in an American public school!"
+                answerResult.text = "Barely passable... Push on a little harder!"
             }
             
             else if(Double(score) / Double(numberOfQuestions) <= 0.7)
