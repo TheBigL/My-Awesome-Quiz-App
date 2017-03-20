@@ -211,10 +211,18 @@ class QuizView: UIViewController {
         if(questionNumber <= Int(numberOfQuestions))
         {
             
-            let randomNumber = Int(arc4random_uniform(UInt32(Questions.count)))
+            var randomNumber = Int(arc4random_uniform(UInt32(Questions.count)))
+            
+            while(Questions[randomNumber].Category != chosenCategory && Questions[randomNumber].Category != "All")
+            {
+                Questions.remove(at: randomNumber)
+                randomNumber = Int(arc4random_uniform(UInt32(Questions.count)))
+            }
             
             
             questionLabel.text = Questions[randomNumber].Question
+            
+
             
             
             NSLog("Entering answer 1...")
