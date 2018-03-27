@@ -23,6 +23,7 @@ class QuizView: UIViewController {
     var rightAnswer: Int = 0
     var chosenCategory = ""
     
+    //Sets up the structure of the questions
     struct Question
     {
         var Category: String!
@@ -31,6 +32,7 @@ class QuizView: UIViewController {
         var Answer: Int!
     }
     
+    //Set of Questions made up by me.
     var Questions = [
         
         Question( Category: "American Trivia", Question: "Who was the 40th President of the United States?", Answers: ["Ronald Reagan", "Bill Clinton", "George W. Bush", "Barack Obama"], Answer: 0),
