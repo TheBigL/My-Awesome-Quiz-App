@@ -81,7 +81,11 @@ class QuizView: UIViewController {
         
         Question(Category: "American Trivia", Question: "Which amendment to the constitution guarantees the right to own the right to own firearms?", Answers: ["The 5th amendment", "The 2nd Amendment", "The 9th Amendment", "The 12th Amendment"], Answer: 1),
         
-        Question(Category: "Video Game Trivia", Question: "Which marsupial was the de-facto Sony mascot during the PS1 era?", Answers: ["Crash Bandicoot", "Sypro", "Sonic The Hedgehog", "Willy the Wombat"], Answer: 0)
+        Question(Category: "Video Game Trivia", Question: "Which marsupial was the de-facto Sony mascot during the PS1 era?", Answers: ["Crash Bandicoot", "Sypro", "Sonic The Hedgehog", "Willy the Wombat"], Answer: 0),
+        
+        Question(Category: "Video Game Trivia", Question: "Who was the first composer for the Sonic Franchise", Answers: ["Tee Lopes", "Jun Senoue", "Masato Nakamura", "Soyo Oka"], Answer: 2),
+        
+        Question(Category: "Video Game Trivia", Question: "In what game did Mario Debut in?", Answers: ["Super Mario Bros.", "Mario Bros.", "Super Mario Kart", "Donkey Kong"], Answer: 3)
     ]
     
 
