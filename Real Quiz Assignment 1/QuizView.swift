@@ -86,6 +86,8 @@ class QuizView: UIViewController {
         Question(Category: "Video Game Trivia", Question: "Who was the first composer for the Sonic Franchise", Answers: ["Tee Lopes", "Jun Senoue", "Masato Nakamura", "Soyo Oka"], Answer: 2),
         
         Question(Category: "Video Game Trivia", Question: "In what game did Mario Debut in?", Answers: ["Super Mario Bros.", "Mario Bros.", "Super Mario Kart", "Donkey Kong"], Answer: 3)
+        
+        Question(Category: "Video Game Trivia", Question: "Which Japanese copywriter is responsible for creating the Super Nintendo cult classic RPG EarthBound?", Answers: ["Shigesato Itoi", "Junichi Iwasaki", "Takashi Yamamoto", "Yoshihiro Iwanaga"], Answer: 0)
     ]
     
 
